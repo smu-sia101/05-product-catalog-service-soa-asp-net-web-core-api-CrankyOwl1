@@ -19,6 +19,7 @@ namespace ProductCatalogService.Controllers
 
 
 
+
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {
